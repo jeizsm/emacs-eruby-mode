@@ -101,4 +101,6 @@
 ;;;###autoload
 (add-hook 'find-file-hook #'eruby-mode-auto-mode)
 
+;; Setup/Activation
+(provide 'eruby-mode)
 ;;; eruby-mode.el ends here
